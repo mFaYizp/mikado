@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className="nav-container">
         <div className="logo-container">
           <img
-            src="assets/immerso-ai-logo 1.png"
+            src="/assets/immerso-ai-logo-1.png"
             alt="immerso-logo"
             className="immerso-logo-1"
           />
