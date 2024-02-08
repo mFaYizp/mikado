@@ -38,7 +38,6 @@ const Hero = () => {
           <img src="" alt="hero" />
         </div>
       </div>
-      <div className="border" />
     </section>
   );
 };
