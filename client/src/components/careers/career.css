@@ -25,7 +25,8 @@
   width: 100%;
   display: flex;
   /* align-items: center; */
-  justify-content: space-around;
+padding-inline: 0;
+  /* justify-content: space-around; */
   margin-top: 30px;
   gap: 110px;
 }
@@ -54,6 +55,7 @@
 .job-skills {
   color: #b7b7b7;
   font-size: 16px;
+  text-align: start;
 }
 
 .job-skills-header {
@@ -78,4 +80,15 @@ h2 {
   border: none;
   background: linear-gradient(99.83deg, #00d3a9 0%, #9600ff 100%);
   cursor: pointer;
+}
+
+.job-skills-single-show{
+/* display: flex; */
+/* flex-direction: column; */
+  color: #b7b7b7;
+  font-size: 16px;
+  
+}
+.job-skills-hide{
+  display: none;
 }
