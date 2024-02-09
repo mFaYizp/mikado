@@ -37,7 +37,7 @@ const Career = () => {
           <span className="job-type">Business</span>
         </div>
         <div className="job-description">
-          <h2 className="job-requirement">
+          <h2 className="job-requirements">
             5+ Years of Product Marketing Experience
           </h2>
           <div className="job-skills">
