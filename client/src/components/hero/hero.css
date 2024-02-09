@@ -1,6 +1,6 @@
 .hero-section {
   margin-top: 50px;
-  height: 65vh;
+  height: auto;
   padding-inline: 100px;
 }
 
@@ -19,7 +19,7 @@
 
 .hero-heading {
   color: white;
-  font-size: 70px;
+  font-size: 64px;
 }
 
 .hero-heading .hero-span {
