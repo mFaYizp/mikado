@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./hero.css";
 
 const Hero = () => {
-  const [active, setActive] = useState(null);
+  const [active, setActive] = useState('All');
   return (
     <section className="hero-section">
       <div className="hero">

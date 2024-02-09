@@ -24,9 +24,13 @@ const Career = () => {
         )}
       </div>
       <div className="career">
-        <div>
+        <div className="job-header-container">
           <h1 className="job-header">
-            Product Marketing Manager - Generative AI
+            Product Marketing{" "}
+            <br style={show ? { display: "none" } : { display: "block" }} />{" "}
+            Manager -{" "}
+            <br style={show ? { display: "none" } : { display: "start" }} />{" "}
+            Generative AI
           </h1>
         </div>
         <div>
@@ -49,7 +53,7 @@ const Career = () => {
             <div
               className={show ? "job-skills-single-show" : "job-skills-hide"}
             >
-              <div>
+              <div className="job-skills">
                 <ul>
                   <li>
                     Experience managing and measuring marketing performance in
