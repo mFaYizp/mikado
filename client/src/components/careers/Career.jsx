@@ -60,9 +60,12 @@ const Career = () => {
             entertaining audiences building products with global intellectual
             properties.
           </p>
+          <div className="button-container">
+            <button className="apply-button">Apply Now</button>
+          </div>
         </div>
       </div>
-      <div className="border" style={{ marginTop: "20px" }} />
+      <div className="border" style={{ marginTop: "30px" }} />
     </section>
   );
 };

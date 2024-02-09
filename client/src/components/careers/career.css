@@ -1,5 +1,5 @@
 .career-section {
-  height: 60vh;
+  height: auto;
   padding-inline: 100px;
 }
 
@@ -26,14 +26,17 @@
   /* align-items: center; */
   justify-content: space-around;
   margin-top: 30px;
+  gap: 110px;
 }
 .job-header {
   color: white;
+  font-size: 24px;
+  font-weight: 400;
 }
 
 .job-type {
-  padding-inline: 100px;
-  color: grey;
+  /* padding-inline: 50px; */
+  color: #C7C5C5;
   font-size: 20px;
 }
 
@@ -42,20 +45,36 @@
   color: white;
 }
 
-.job-requirement {
+.job-requirement{
+  font-size: 24px;
   font-weight: 100;
 }
 
 .job-skills {
-  color: grey;
+  color: #b7b7b7;
+  font-size: 16px;
 }
 
 .job-skills-header {
   font-weight: 100;
-  font-size: 19px;
 }
 
 h1,
 h2 {
   margin: 0;
+}
+
+.button-container {
+  margin-top: 30px;
+}
+
+.apply-button {
+  padding: 20px 40px;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  background: linear-gradient(99.83deg, #00d3a9 0%, #9600ff 100%);
+  cursor: pointer;
 }

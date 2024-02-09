@@ -2,13 +2,14 @@ import React from "react";
 import "./navbar.css";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
+
 const Navbar = () => {
   return (
     <section className="navbar">
       <div className="nav-container">
         <div className="logo-container">
           <img
-            src="./logo-1.png"
+            src='/assets/logo-1.png'
             alt="immerso-logo"
             className="immerso-logo-1"
           />
